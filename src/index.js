@@ -8,6 +8,8 @@ import WonChess from "./conditionals";
 import Garage from "./lists"
 import NameForm from "./forms";
 import FormWithHook from "./useStateHook";
+import Color from "./colorhook"
+import Timer from "./useEffectTimer"
 
 ReactDOM.render(
 
@@ -36,6 +38,15 @@ ReactDOM.render(
 
 ReactDOM.render(
     <FormWithHook />, document.getElementById('hookedForm')
+)
+
+ReactDOM.render(
+    <Color />, document.getElementById("colorElement")
+
+)
+
+ReactDOM.render(
+    <Timer />, document.getElementById('root0')
 )
 
 
